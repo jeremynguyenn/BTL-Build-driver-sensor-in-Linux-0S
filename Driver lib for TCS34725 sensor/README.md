@@ -21,9 +21,9 @@ Note: Replace bcm2710-rpi-3-b.dtb with the appropriate .dtb file for your specif
 Example: Using raspberry Pi 3 with the following command:
 “dtc -I dts -O dtb -o bcm2710-rpi-3-b.dtb bcm2710-rpi-3-b.dts”
 “sduo reboot”
-Step 5: Makefile and install Driver into system
--	Ensure that the "driver" file and the Makefile are in the same folder. Then run the make command.
-“make”
--	Once the make command completes successfully, the file driver.ko will be generated.
--	The next step is to install the driver into the Raspberry Pi using the following command:” sudo insmod driver.ko”. You can check the installation status using the dmesg command “dmesg”.
--	Similarly, if you want to remove the installed driver, use the following command: “sudo rmmod driver”.
+- Step 5: Makefile and install Driver into system
++ Ensure that the "driver" file and the Makefile are in the same folder. Then run the make command.
+            “make”
++ Once the make command completes successfully, the file driver.ko will be generated.
++ The next step is to install the driver into the Raspberry Pi using the following command:”   sudo insmod driver.ko”. You can check the installation status using the dmesg command “dmesg”.
++ Similarly, if you want to remove the installed driver, use the following command: “sudo rmmod driver”.
