@@ -34,8 +34,8 @@ To complement the driver, the team has developed a dedicated library for the TCS
 - Step 1: Make sure that your “code_lib.c” and “tcs34725_library.h” files are in the same folder.
 - Step 2: Proceed with installing the library by following these steps:
    +	Compile the file into position-independent code: “gcc -c -fPIC code_lib.c -o code.o”
-  
-   +            Create the shared library: “gcc -shared -o libtcs34725_library.so code.o”
+     
+   +	Create the shared library: “gcc -shared -o libtcs34725_library.so code.o”
   
    + 	Copy file tcs34725_library.h to usr/include and tcs34725_library.so to usr/lib
  	
