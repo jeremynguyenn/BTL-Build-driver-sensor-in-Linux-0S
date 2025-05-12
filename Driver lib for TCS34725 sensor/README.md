@@ -44,6 +44,7 @@ then
 ## Installation and Usage of the TCS34725_lib Library for Reading the Sensor TCS34725
 5.1	Install library TCS34725_lib
 To complement the driver, the team has developed a dedicated library for the TCS34725 sensor. The “tcs34725_lib” library provides users with functions to configure the sensor and retrieve values from the four color channels: clear, red, green, and blue. To install and use the library, follow these steps:
+
 - Step 1: Make sure that your “code_lib.c” and “tcs34725_library.h” files are in the same folder.
 - Step 2: Proceed with installing the library by following these steps:
    +	Compile the file into position-independent code: “gcc -c -fPIC code_lib.c -o code.o”
