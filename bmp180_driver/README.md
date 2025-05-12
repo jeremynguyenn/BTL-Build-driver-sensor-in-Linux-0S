@@ -25,7 +25,7 @@ To delete all files except artifacts and sources use:
 ```sh
 make clean
 ```
-
+## File run test DEMO is app.c 
 To delete all files except sources use:
 ```sh
 make cleanall
