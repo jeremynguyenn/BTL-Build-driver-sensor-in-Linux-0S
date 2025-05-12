@@ -35,9 +35,13 @@ To complement the driver, the team has developed a dedicated library for the TCS
 - Step 2: Proceed with installing the library by following these steps:
               +	Compile the file into position-independent code:
                                                             “gcc -c -fPIC code_lib.c -o code.o”
+  
               +	Create the shared library:
                                                             “gcc -shared -o libtcs34725_library.so code.o”
+  
               +	Copy file tcs34725_library.h to usr/include and tcs34725_library.so to usr/lib
+  
               +	Link your program with the library
                                                             “gcc file.c -L -ltcs34725_library -o newfile”
+  
 By completing the above steps, you have successfully installed the “tcs34725_lib” library on the Raspberry Pi. Details about the library are provided in section 4.2
