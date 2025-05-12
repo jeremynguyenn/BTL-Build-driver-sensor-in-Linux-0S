@@ -1,10 +1,15 @@
 MÔN: HỆ THỐNG NHÚNG
-TÀI LIỆU HƯỚNG DẪN CHO DRIVER CẢM BIẾN TCS34725 và bmp180
-
+Viết Linux driver trên hệ điều hành Linux.
 
 GVHD:	TS. Bùi Hà Đức.
 
 Tên SV thực hiện: Nguyễn Trung Nhân - 211460333
 
 Tên SV thực hiện: Trần Trương Huy Hoàng - 21146389
+
+Nhóm tụi em gồm 2 thành viên và nhóm tụi em chọn 2 con cảm biến module cảm biến áp suất BMP180 và cảm biến module cảm biến màu sắc TCS34725. Trong mỗi file gồm Driver lib for TCS34725 sensor và bmp180_driver tụi em có kèm theo file README.md hướng dẫn sử dụng 2 con cảm biến driver 
+
+## Document Manual for 2 sensor 
+Link:
+Link: 
 
